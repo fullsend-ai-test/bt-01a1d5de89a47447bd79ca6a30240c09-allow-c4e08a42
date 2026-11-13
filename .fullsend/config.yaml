@@ -15,4 +15,7 @@ agents:
       source: harness/fork-pr-ping.yaml
     - name: fork-issue-ping
       source: harness/fork-issue-ping.yaml
+    - name: fork-pr-killed
+      source: harness/fork-pr-killed.yaml
+      enabled: false
 mint_url: https://bt-9f892f82-bt-mint.fullsend-ai.workers.dev
